@@ -131,6 +131,20 @@ img .img_logo {
   color: #fff;
 }
 
+.textarea {
+  color: #666666;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Calibri", Courier, monospace;
+  font-size: 13px;
+  width: 575px;
+  height: 100px;
+  line-height: 1.4;
+  transition: all 0.2s;
+}
+
 .flx {
   display: flex;
 }

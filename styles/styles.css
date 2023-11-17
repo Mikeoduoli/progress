@@ -25,15 +25,17 @@ header {
   float: left;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .container .left-bar-wrapper .left-bar {
   width: 60px;
-  height: 100vh;
+  height: 80vh;
   background: #FE1010;
   padding: 10px -10px;
   margin-top: 5px;
   font-size: 5px;
+  overflow: hidden;
 }
 
 .container .left-bar-wrapper .left-bar ul {
@@ -51,12 +53,12 @@ header {
 }
 
 .body-sec {
-  margin-left: 90px;
+  margin: 0 auto;
   margin-top: 20px;
   height: 100%;
   width: 70%;
   padding: 0;
-  width: 90%;
+  width: 80%;
 }
 
 .apply-button {
@@ -76,6 +78,18 @@ img .img_logo {
   border-radius: 10px;
   width: -moz-max-content;
   width: max-content;
+}
+
+footer {
+  font-style: italic;
+  background-color: #FE1010;
+  padding: 14px;
+  text-align: center;
+  color: #fff;
+  right: 0;
+  left: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .ap-h2 {

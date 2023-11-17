@@ -45,6 +45,11 @@ header {
   color: white;
 }
 
+.container .left-bar-wrapper .left-bar .icon_img {
+  max-width: 50%;
+  color: #fff;
+}
+
 .body-sec {
   margin-left: 90px;
   margin-top: 20px;

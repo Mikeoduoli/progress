@@ -63,12 +63,31 @@ header {
 
 .body-sec {
     // background-color: blue;
-    margin: 0 auto;
-    margin-top: 20px;
-    height: 100%;
-    width: 70%;
-    padding: 0;
-    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+}
+
+.b_buttons {
+    max-width: 20vw;
+    padding: 3px;
+}
+
+.b_request {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.b_replace {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.b_surrender {
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .apply-button {

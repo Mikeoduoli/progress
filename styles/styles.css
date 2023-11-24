@@ -127,8 +127,9 @@ footer {
   margin-bottom: 5px;
 }
 
-.phone {
+ul .phone {
   margin-bottom: 5px;
+  margin-left: 50px;
 }
 
 .id-no {
@@ -146,6 +147,10 @@ footer {
   padding: 5px 0;
   margin: 10px 0;
   padding-left: 30px;
+}
+
+ul .input-box {
+  margin-left: 90px;
 }
 
 .apply-button-2 {
@@ -184,13 +189,13 @@ footer {
 }
 
 .flx .to-issue {
-  width: 100%;
+  width: 85%;
 }
 
-.user-type {
-  padding-left: 300px;
+ul .user-type {
+  margin-left: 90px;
 }
 
-.to-flec {
+.to-flec ul {
   display: flex;
 }/*# sourceMappingURL=styles.css.map */

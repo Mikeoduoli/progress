@@ -143,8 +143,9 @@ footer {
     margin-bottom: 5px;
 }
 
-.phone {
+ ul .phone {
     margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 .id-no {
@@ -163,7 +164,10 @@ footer {
     margin: 10px 0;
     padding-left: 30px;
 }
-
+ul .input-box{
+    // background-color: #FE1010;
+    margin-left: 90px;
+}
 .apply-button-2 {
     margin-left: 19%;
     margin-top: 20px;
@@ -204,11 +208,11 @@ footer {
 }
 
 .flx .to-issue {
-    width: 100%;
+    width: 85%;
 }
 
-.user-type {
-    padding-left: 300px;
+ul .user-type {
+    margin-left: 90px;
 }
 
 
@@ -216,6 +220,6 @@ footer {
 //     // background-color: chocolate;
 // }
 
-.to-flec {
+.to-flec ul{
     display: flex;
 }

@@ -16,7 +16,7 @@ body {
 
 header {
   background: #FE1010;
-  height: 60px;
+  height: 10vh;
   padding-left: 10px;
   padding-top: 5px;
 }
@@ -31,14 +31,13 @@ header {
 .container .left-bar-wrapper .left-bar {
   width: 50px;
   min-height: 90vh;
-  flex: 0 0 auto;
   background: #FE1010;
   padding: 3px 10px;
   font-size: 10px;
 }
 
 .container .left-bar-wrapper .left-bar ul {
-  font-size: 15px;
+  font-size: 40px;
   padding-left: 5px;
 }
 
@@ -48,15 +47,13 @@ header {
 
 .container .left-bar-wrapper .left-bar .icon_img {
   max-width: 50%;
-  color: #fff;
 }
 
-.body-sec {
-  height: 40vh;
+.body-sec-apply {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0px 10px;
+  padding-left: 5px;
 }
 
 .b_buttons {
@@ -148,17 +145,17 @@ footer {
   border: 2px solid rgba(255, 255, 255, 0.4);
   padding: 5px 0;
   margin: 10px 0;
-  padding-left: 9px;
+  padding-left: 30px;
 }
 
 .apply-button-2 {
-  margin-left: 560px;
+  margin-left: 19%;
   margin-top: 20px;
   height: 70%;
 }
 
 .apply-button-2 input {
-  width: 24%;
+  width: 15%;
   height: 30px;
   font-size: 18px;
   border: none;
@@ -176,7 +173,7 @@ footer {
   outline: none;
   font-family: "Calibri", Courier, monospace;
   font-size: 13px;
-  width: 575px;
+  width: 30%;
   height: 100px;
   line-height: 1.4;
   transition: all 0.2s;
@@ -191,7 +188,7 @@ footer {
 }
 
 .user-type {
-  padding-left: 15px;
+  padding-left: 300px;
 }
 
 .to-flec {
